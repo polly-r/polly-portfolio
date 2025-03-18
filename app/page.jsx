@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -16,15 +18,15 @@ const Home = () => {
           {/* text ting */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             
-            <span className="text-xl">Web Developer</span>
+            <span className="text-xl">Data Analyst</span>
             
             <h1 className="h1 mb-6">
               Hi, I'm <br /> <span className="text-accent">Polly Ramaselele</span>
             </h1>
             
             <p className="max-w-[500px] mb-9 text-white/80">
-            I excel at crafting functional web experiences and I am proficient in various
-            programming languages & software.
+            I specialise in analyzing complex datasets & uncovering actionable insights
+             to help businesses make smarter, data-driven decisions.
             </p>
 
             {/* btn & social media */}
@@ -33,6 +35,7 @@ const Home = () => {
               variant="outline" 
               size="lg"
               className="uppercase flex itens-center gap-2"
+              onClick={() => window.open('assets/PollyR_DA CV24.pdf','_blank')}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />

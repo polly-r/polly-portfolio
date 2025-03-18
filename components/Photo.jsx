@@ -21,9 +21,9 @@ const Photo = () => {
                     transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
                     }}
         
-                className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
+                className="w-[400px] h-[400px] xl:w-[600px] xl:h-[600px] mix-blend-lighten absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <Image 
-                    src="/assets/mesmilingnobg.png" 
+                    src="/assets/formalportrait.png" 
                     priority 
                     quality={100} 
                     fill

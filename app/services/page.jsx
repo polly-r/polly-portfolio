@@ -6,30 +6,40 @@ import Link from "next/link";
 const services = [
     { 
         num: '01',
-        title: 'Web Development',
-        description: 'Say grrrrrrrrr.',
+        title: 'Database Management & Optimisation',
+        description: 'I design and optimize databases, helping to streamline data retrieval processes and improve overall system performance. This ensures that your data is stored efficiently and is easily accessible across the organisation. ',
         href:"",
     },
     { 
         num: '02',
-        title: 'Data Analysis',
-        description: 'Say grrrrrrrrr.',
+        title: 'Data Visualisation & Reporting',
+        description: 'Creating compelling and easy-to-understand visualizations that communicate key insights. I make use of tools such as Tableau, Power BI, IBM Cognos & custom visualisations to craft dashboards and reports that make data come to life.',
         href:""
     },
     { 
         num: '03',
-        title: 'Brand Design',
-        description: 'Say grrrrrrrrr.',
+        title: 'Statistical Analysis & Predictive Modeling',
+        description: 'Applying advanced statistical methods and machine learning models to identify trends, forecast future outcomes and support decision-making. I help businesses gain deeper insights through regression analysis, classification & time-series forecasting.',
         href:""
     },
     { 
         num: '04',
-        title: 'Data Visualisation',
-        description: 'Say grrrrrrrrr.',
+        title: 'Web Development & Data Integration',
+        description: 'Demonstrating my web development expertise through this very portfolio, built with Next.js, I also leverage no-code/low-code platforms to integrate data and create dynamic, user-friendly web solutions. I combine my data analysis skills with web development to deliver seamless data-driven applications that support business goals.',
         href:""
     },
-
-
+    { 
+        num: '05',
+        title: 'Geospatial Data Analysis',
+        description: "I specialise in analysing geographic data to uncover insights that can inform decision-making. Whether it's environmental monitoring, urban planning, site selection or resource management, I use popular open-source GIS tools to derive meaningful conclusions from geospatial data. In addition to this, I am able to leverage satellite imagery and remote sensing techniques, providing analysis for a range of industries, including agriculture, forestry and urban development assisting in change detection.",
+        href:""
+    },
+    { 
+        num: '06',
+        title: 'Creative Design for Small Businesses',
+        description: 'In addition to my work as a data analyst, I am a freelance designer specializing in mid-century vintage-inspired posters, logos, and brand creation. I dedicate my free time to helping entrepreneurs and small businesses craft distinctive, visually compelling brands that capture their essence and engage their target audience. Whether it’s designing a unique logo or building a full brand identity, my goal is to create designs that stand the test of time and make a lasting impact.',
+        href:""
+    },
 ]
 
 const Services = () => {
